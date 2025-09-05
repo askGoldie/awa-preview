@@ -1,0 +1,20 @@
+# filename: robots.txt, location: root, purpose: Search engine crawling instructions
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.aiworkforceassessment.com/sitemap.xml
+
+# Disallow admin and private areas (future-proofing)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /private/
+
+# Allow assessment and public pages
+Allow: /assessment
+Allow: /pricing
+Allow: /methodology
+
+# Crawl delay for respectful indexing
+Crawl-delay: 1
